@@ -1,0 +1,60 @@
+name: build-playlists
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # 每周一 UTC 04:00 = 北京时间 12:00
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: playlists
+  cancel-in-progress: true
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch fresh upstream playlist
+        run: |
+          curl -sL --retry 3 --max-time 300 -o index.m3u https://iptv-org.github.io/iptv/index.m3u
+          echo "上游频道数: $(grep -c '^#EXTINF' index.m3u)"
+
+      - name: Probe all streams
+        env:
+          PLAYLIST_FILE: index.m3u
+        run: python3 scripts/probe_streams.py
+
+      - name: Assemble curated playlists
+        env:
+          PLAYLIST_FILE: index.m3u
+        run: python3 scripts/assemble_playlists.py
+
+      - name: Publish to lists branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p publish
+          cp "推荐精选·实测可播.m3u" "全量可播·按国家.m3u" probe_summary.json publish/
+          cd publish
+          {
+            echo "# 实测可播播放列表"
+            echo
+            echo "每周一北京时间 12:00 自动刷新：抓取 iptv-org 最新全量列表 → 逐条实测可播性 → 生成下列两份列表。"
+            echo
+            echo "- 推荐精选：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/推荐精选·实测可播.m3u\`"
+            echo "- 全量可播：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/全量可播·按国家.m3u\`"
+            echo
+            echo "最近一次探测结果："
+            echo '```json'
+            cat probe_summary.json
+            echo '```'
+            echo
+            echo "更新时间：$(date -u '+%Y-%m-%d %H:%M UTC')"
+          } > README.md
+          git init -b lists
+          git config user.name "playlist-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Playlists refresh $(date -u +%F)"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" lists
