@@ -1,0 +1,110 @@
+[
+ {
+  "name": "iptv-org",
+  "urls": [
+   "https://iptv-org.github.io/iptv/index.m3u"
+  ],
+  "region": "global",
+  "trust": 7,
+  "note": "全球全量原料库,ID体系挂接自建EPG"
+ },
+ {
+  "name": "freetv",
+  "urls": [
+   "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+  ],
+  "region": "global",
+  "trust": 9,
+  "note": "人工精选全球台,质量门槛严"
+ },
+ {
+  "name": "pluto-all",
+  "urls": [
+   "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plutotv_all.m3u"
+  ],
+  "region": "fast",
+  "trust": 8,
+  "note": "Pluto TV 14+国 FAST,自带mjh EPG id"
+ },
+ {
+  "name": "plex-us",
+  "urls": [
+   "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/plex_us.m3u"
+  ],
+  "region": "fast",
+  "trust": 8,
+  "note": "Plex 687频道"
+ },
+ {
+  "name": "samsung-us",
+  "urls": [
+   "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/samsungtvplus_us.m3u"
+  ],
+  "region": "fast",
+  "trust": 8,
+  "note": "Samsung TV Plus US"
+ },
+ {
+  "name": "roku-all",
+  "urls": [
+   "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/roku_all.m3u"
+  ],
+  "region": "fast",
+  "trust": 7,
+  "note": "Roku Channel"
+ },
+ {
+  "name": "tubi-all",
+  "urls": [
+   "https://raw.githubusercontent.com/BuddyChewChew/app-m3u-generator/main/playlists/tubi_all.m3u"
+  ],
+  "region": "fast",
+  "trust": 7,
+  "note": "Tubi"
+ },
+ {
+  "name": "vbskycn",
+  "urls": [
+   "https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u"
+  ],
+  "region": "cn",
+  "trust": 8,
+  "note": "国内主力,每6小时自动测活"
+ },
+ {
+  "name": "hujingguang",
+  "urls": [
+   "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV1_ALL.m3u8"
+  ],
+  "region": "cn",
+  "trust": 6,
+  "note": "国内405台,15分钟级刷新,部分链接含短时效token"
+ },
+ {
+  "name": "suxuang",
+  "urls": [
+   "https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u"
+  ],
+  "region": "cn",
+  "trust": 6,
+  "note": "国内手工维护备用"
+ },
+ {
+  "name": "hk-auto",
+  "urls": [
+   "https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u"
+  ],
+  "region": "hk",
+  "trust": 7,
+  "note": "香港:TVB翡翠/明珠/ViuTV/HOY/RTHK,每日两次自动测活"
+ },
+ {
+  "name": "gat-tw",
+  "urls": [
+   "https://raw.githubusercontent.com/MercuryZz/IPTVN/main/GAT.m3u"
+  ],
+  "region": "tw",
+  "trust": 6,
+  "note": "台湾主流台+澳门+凤凰,每日更新"
+ }
+]

@@ -15,19 +15,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch fresh upstream playlist
+      - name: Aggregate upstream sources
         run: |
-          curl -sL --retry 3 --max-time 300 -o index.m3u https://iptv-org.github.io/iptv/index.m3u
-          echo "上游频道数: $(grep -c '^#EXTINF' index.m3u)"
+          python3 scripts/aggregate_sources.py sources.json
+          echo "合并池频道数: $(grep -c '^#EXTINF' pool.m3u)"
 
       - name: Probe all streams
         env:
-          PLAYLIST_FILE: index.m3u
+          PLAYLIST_FILE: pool.m3u
         run: python3 scripts/probe_streams.py
 
       - name: Assemble curated playlists
         env:
-          PLAYLIST_FILE: index.m3u
+          PLAYLIST_FILE: pool.m3u
         run: python3 scripts/assemble_playlists.py
 
       - name: Rebuild weekly EPG channel targets
@@ -59,7 +59,7 @@ jobs:
           {
             echo "# 实测可播播放列表"
             echo
-            echo "每周一北京时间 12:00 自动刷新：抓取 iptv-org 最新全量列表 → 逐条实测可播性 → 生成下列两份列表。"
+            echo "每周一北京时间 12:00 自动刷新：聚合 12 个上游源（全球/FAST/国内/港/台）→ URL 去重 → 逐条实测可播性 → 跨源频道合并与影响力排序 → 生成下列两份列表。"
             echo
             echo "- 推荐精选(curated.m3u)：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/curated.m3u\`"
             echo "- 全量可播(full.m3u)：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/full.m3u\`"

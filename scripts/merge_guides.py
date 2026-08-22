@@ -1,5 +1,5 @@
 import glob, gzip, os
-parts = sorted(glob.glob("out_channels_part*.xml"))
+parts = sorted(glob.glob("out_channels_part*.xml")) + sorted(glob.glob("out_fallback*.xml")) + sorted(glob.glob("epg_extra_*.xml"))
 assert parts, "no grabbed output found"
 n_ch = n_pr = 0
 with open("guide.xml", "w", encoding="utf-8") as out:

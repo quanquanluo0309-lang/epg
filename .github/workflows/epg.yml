@@ -30,6 +30,21 @@ jobs:
             i=$(basename "$f" .xml)
             npm run grab --- --channels="$f" --output="../out_${i}.xml" --maxConnections=10 --days=2 || echo "batch $i failed, continuing"
           done
+      - name: Supplement - mjh direct merge
+        run: python3 scripts/epg_supplement.py --mode mjh --out epg_extra_mjh.xml || echo "mjh supplement failed, continuing"
+
+      - name: Supplement - fallback-site second pass
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: |
+          python3 scripts/epg_supplement.py --mode fallback --out channels_fallback.xml || true
+          if grep -q "<channel " channels_fallback.xml 2>/dev/null; then
+            cd grabber
+            npm run grab --- --channels=../channels_fallback.xml --output=../out_fallback.xml --maxConnections=10 --days=2 || echo "fallback grab failed, continuing"
+          else
+            echo "无可回退频道"
+          fi
+
       - name: Merge and gzip
         run: python3 scripts/merge_guides.py
       - name: Publish to output branch
