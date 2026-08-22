@@ -35,15 +35,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           mkdir -p publish
-          cp "推荐精选·实测可播.m3u" "全量可播·按国家.m3u" probe_summary.json publish/
+          cp "推荐精选·实测可播.m3u" publish/curated.m3u
+          cp "全量可播·按国家.m3u" publish/full.m3u
+          cp probe_summary.json publish/
           cd publish
           {
             echo "# 实测可播播放列表"
             echo
             echo "每周一北京时间 12:00 自动刷新：抓取 iptv-org 最新全量列表 → 逐条实测可播性 → 生成下列两份列表。"
             echo
-            echo "- 推荐精选：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/推荐精选·实测可播.m3u\`"
-            echo "- 全量可播：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/全量可播·按国家.m3u\`"
+            echo "- 推荐精选(curated.m3u)：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/curated.m3u\`"
+            echo "- 全量可播(full.m3u)：\`https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/lists/full.m3u\`"
             echo
             echo "最近一次探测结果："
             echo '```json'
