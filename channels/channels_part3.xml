@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVDeggendorfStraubing.de@SD" site_id="177">NIEDERBAYERN TV Deggendorf - Straubing</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVLandshut.de@SD" site_id="174">NIEDERBAYERN TV Landshut</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVPassau.de@SD" site_id="154">NIEDERBAYERN TV Passau</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="NinjaKidzTV.us@SD" site_id="Plex/au#697140a85d851f5e69414688-627ec46a92d8e6a705784bd1">Ninja Kidz TV</channel>
   <channel site="tataplay.com" lang="en" xmltv_id="NireekshanaTV.in@SD" site_id="1378">Nireekshana TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NizhniyNovgorod24.ru" site_id="nn-24">Нижний Новгород 24</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="NizhniyNovgorod24.ru@SD" site_id="nn-24">Нижний Новгород 24</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="NollyAfrica.uk@SD" site_id="Plex/ca#647f8d22a2fc3fadb4721685-64b1e1217d4037206787f384">Nolly Africa HD</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="NollywoodTV.fr@SD" site_id="1461">NOLLYWOOD TV</channel>
@@ -17,11 +17,19 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="NoticiasRCN.co@SD" site_id="Plex/us#5e20b730f2f8d5003d739db7-68a8ddec619a0c342c8d6181">RCN Noticias</channel>
   <channel site="sat.tv" lang="en" xmltv_id="NourAlKoddass.lb@SD" site_id="1#33#Nour Koddass">Nour Koddass</channel>
   <channel site="tvprofil.com" lang="hr" xmltv_id="Nova.rs@SD" site_id="ba/tvprogram#nova-s">Nova S</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaAction.cz" site_id="Nova+Action">Nova Action</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaCinema.cz" site_id="Nova+Cinema">Nova Cinema</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaFun.cz" site_id="Nova+Fun">Nova Fun</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaGold.cz" site_id="Nova+Gold">Nova Gold</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaLady.cz" site_id="Nova+Lady">Nova Lady</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="NovaTV.hr@SD" site_id="Nova+TV">Nova TV</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Nove.it" site_id="68748486/nove">Nove</channel>
   <channel site="galamtv.kz" lang="kk" xmltv_id="Novoetelevidenie.kz@SD" site_id="559d224e78d7270195008a15">Новое Телевидение</channel>
   <channel site="freetv.tv" lang="he" xmltv_id="Now14.il@SD" site_id="3457869">ערוץ 14</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="Now70s.uk" site_id="1917/now-70s">NOW 70s</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="Now70s.uk@Poland" site_id="1917/now-70s">NOW 70s</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="Now70s.uk@SD" site_id="1917/now-70s">NOW 70s</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="Now80s.uk" site_id="1915/now-80s">NOW 80s</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="Now80s.uk@Poland" site_id="1915/now-80s">NOW 80s</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="Now80s.uk@SD" site_id="1915/now-80s">NOW 80s</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="Now90s00s.uk@Poland" site_id="PlutoTV/gb#660c209e19ca71000846cf38">That&amp;apos;s 90s00s</channel>
@@ -43,6 +51,7 @@
   <channel site="tv.sfr.fr" lang="fr" xmltv_id="OTV.lb@SD" site_id="1285">OTV</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="OberpfalzTV.de@SD" site_id="141">Oberpfalz TV</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="ObozrevatelTV.ua@SD" site_id="oboz-tv">OBOZ TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ocko.cz" site_id="ocko-cz">Óčko</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ocko.cz@SD" site_id="ocko-cz">Óčko</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="OckoBlack.cz@SD" site_id="ocko-black-cz">Óčko Black</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="OckoExpres.cz@SD" site_id="ocko-expres-cz">Óčko Expres</channel>
@@ -119,6 +128,7 @@
   <channel site="airtelxstream.in" lang="en" xmltv_id="ParasGold.in@SD" site_id="LIVETV_LIVETVCHANNEL_PARAS_GOLD_ONE">Paras Gold One</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="Paravision.py@SD" site_id="paravision">Canal Paravisión</channel>
   <channel site="tv.blue.ch" lang="de" xmltv_id="Parlamentsfernsehen1.de@SD" site_id="2110">Deutscher Bundestag</channel>
+  <channel site="zuragt.mn" lang="mn" xmltv_id="ParliamentTV.mn" site_id="parlament-televiz">Парламент телевиз</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="ParliamentTV.nz@SD" site_id="SkyGo/epg#sky.86">Parliament</channel>
   <channel site="sky.com" lang="it" xmltv_id="ParolediVita.it@SD" site_id="IT#5428">Parole di Vita</channel>
   <channel site="directv.com.uy" lang="es" xmltv_id="PasionesLatinAmerica.us@SD" site_id="225#PASN">Pasiones</channel>
@@ -127,6 +137,7 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="PeopleAreAwesome.us@Poland" site_id="Plex/au#697140a85d851f5e69414688-5f0ff263d71dcb00449ec021">People are Awesome</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PeopleAreAwesome.us@SD" site_id="Plex/au#697140a85d851f5e69414688-5f0ff263d71dcb00449ec021">People are Awesome</channel>
   <channel site="tataplay.com" lang="en" xmltv_id="PeppersTV.in@SD" site_id="421">Peppers TV</channel>
+  <channel site="magticom.ge" lang="ru" xmltv_id="PeretzInternational.ru" site_id="220">Перец</channel>
   <channel site="magticom.ge" lang="ru" xmltv_id="PeretzInternational.ru@SD" site_id="220">Перец</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PerryMason.us@CA" site_id="PlutoTV/us#6197086891ddd4000739941a">Perry Mason</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PerryMason.us@SD" site_id="PlutoTV/us#6197086891ddd4000739941a">Perry Mason</channel>
@@ -569,6 +580,7 @@
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Prima.cz@SD" site_id="Prima">Prima</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="Prima.ru@SD" site_id="prima">Прима</channel>
   <channel site="horizon.tv" lang="cs" xmltv_id="PrimaCool.cz@SD" site_id="10029">Prima COOL HD</channel>
+  <channel site="horizon.tv" lang="cs" xmltv_id="PrimaKrimi.cz" site_id="10027">Prima KRIMI HD</channel>
   <channel site="horizon.tv" lang="cs" xmltv_id="PrimaLove.cz@SD" site_id="10030">Prima love HD</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="PrimaShow.cz@SD" site_id="Prima+Show">Prima Show</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="PrimaStar.cz@SD" site_id="Prima+Star">Prima Star</channel>
@@ -587,6 +599,7 @@
   <channel site="airtelxstream.in" lang="en" xmltv_id="PudhariNews.in@SD" site_id="LIVETV_LIVETVCHANNEL_PUDHARI_NEWS">Pudhari News</channel>
   <channel site="tv.sfr.fr" lang="fr" xmltv_id="PuissanceTV.fr@SD" site_id="3771">Puissance TV</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Puls2.pl@SD" site_id="Puls+2">Puls 2</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="PursuitChannel.us@SD" site_id="60111">Pursuit Channel</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="PursuitUP.us@SD" site_id="Plex/au#697140a85d851f5e69414688-63628eb88e4b18ca22f897dc">PursuitUP</channel>
   <channel site="airtelxstream.in" lang="en" xmltv_id="PuthiyaThalaimurai.in@SD" site_id="LIVETV_LIVETVCHANNEL_PUTHIYA_THALAIMURAI">Puthiya Thalaimurai</channel>
   <channel site="airtelxstream.in" lang="en" xmltv_id="PuthuyugamTV.in@SD" site_id="LIVETV_LIVETVCHANNEL_PUTHU_YUGAM">Puthu Yugam</channel>
@@ -600,7 +613,9 @@
   <channel site="mytelly.co.uk" lang="en" xmltv_id="QVCBeauty.uk@SD" site_id="2256/qvc-beauty">QVC Beauty</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="QVCExtra.uk@SD" site_id="2257/qvc-extra">QVC Extra</channel>
   <channel site="mytelly.co.uk" lang="en" xmltv_id="QVCStyle.uk@SD" site_id="2259/qvc-style">QVC Style</channel>
+  <channel site="elcinema.com" lang="en" xmltv_id="QatarTelevision.qa" site_id="1319">Qatar</channel>
   <channel site="elcinema.com" lang="en" xmltv_id="QatarTelevision.qa@SD" site_id="1319">Qatar</channel>
+  <channel site="sat.tv" lang="ar" xmltv_id="QatarTelevision2.qa" site_id="1#38#قطر 2">قطر 2</channel>
   <channel site="sat.tv" lang="ar" xmltv_id="QatarTelevision2.qa@SD" site_id="1#38#قطر 2">قطر 2</channel>
   <channel site="galamtv.kz" lang="kk" xmltv_id="Qazaqstan.kz@HD" site_id="636e54cf8a8f73bae8244f41">Qazaqstan</channel>
   <channel site="galamtv.kz" lang="kk" xmltv_id="Qazaqstan.kz@SD" site_id="636e54cf8a8f73bae8244f41">Qazaqstan</channel>
@@ -609,15 +624,18 @@
   <channel site="directv.com.uy" lang="es" xmltv_id="QuieroMusicaenmiIdioma.ar@SD" site_id="269#QMMI">Quiero Música en mi Idioma</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="QuizTV.ua@SD" site_id="quiz-tv">Quiz TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="QwestTV.fr@SD" site_id="Plex/au#697140a85d851f5e69414688-60b0f65c0c8ffb002c821a75">Qwest TV</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="R101TV.it" site_id="r101/463">R101</channel>
   <channel site="teleboy.ch" lang="de" xmltv_id="R9.at@SD" site_id="475">R9 Österreich</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RACERInternational.pl@FAST" site_id="Plex/au#697140a85d851f5e69414688-5f90ebc726350a002d40b136">RACER International</channel>
+  <channel site="mi.tv" lang="pt" xmltv_id="RBATV.br@SD" site_id="br#rba-tv-hd">RBA TV HD</channel>
+  <channel site="magticom.ge" lang="ru" xmltv_id="RBKTV.ru" site_id="90">РБК</channel>
   <channel site="magticom.ge" lang="ru" xmltv_id="RBKTV.ru@SD" site_id="90">РБК</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RCNMas.co@SD" site_id="Plex/us#5e20b730f2f8d5003d739db7-6244f2d33ef43121e567cf13">RCN Más</channel>
   <channel site="gatotv.com" lang="es" xmltv_id="RCNNovelas.co@SD" site_id="rcn_novelas">Canal RCN Novelas</channel>
   <channel site="mncvision.id" lang="en" xmltv_id="RCTI.id@HD" site_id="80">RCTI</channel>
+  <channel site="sky.com" lang="it" xmltv_id="RDSSocialTV.it" site_id="IT#5480">RDS Social TV</channel>
   <channel site="sky.com" lang="it" xmltv_id="RDSSocialTV.it@SD" site_id="IT#5480">RDS Social TV</channel>
   <channel site="web.magentatv.de" lang="de" xmltv_id="RFH.de@SD" site_id="4723">RFH Regionalfernsehen Harz</channel>
-  <channel site="osn.com" lang="en" xmltv_id="RFMTV.fr@SD" site_id="222">RFM TV</channel>
   <channel site="sky.com" lang="de" xmltv_id="RFO.de@SD" site_id="DE#1030">RFO</channel>
   <channel site="tv.blue.ch" lang="el" xmltv_id="RIKSat.cy@SD" site_id="351">RIK Sat</channel>
   <channel site="teleboy.ch" lang="fr" xmltv_id="RMCLife.fr@SD" site_id="371">RMC Life</channel>
@@ -627,10 +645,14 @@
   <channel site="mytvsuper.com" lang="zh" xmltv_id="ROCKAction.sg@SD" site_id="CRTX">ROCK Action</channel>
   <channel site="tv.movistar.com.pe" lang="es" xmltv_id="RPPTV.pe@SD" site_id="lch2212">RPP TV</channel>
   <channel site="superguidatv.it" lang="it" xmltv_id="RSILa2.ch@SD" site_id="la-2/rsi/232">La 2</channel>
+  <channel site="nowplayer.now.com" lang="zh" xmltv_id="RT.ru" site_id="329">RT</channel>
   <channel site="nowplayer.now.com" lang="zh" xmltv_id="RT.ru@SD" site_id="329">RT</channel>
   <channel site="osn.com" lang="en" xmltv_id="RTArabic.ru@SD" site_id="9396">RT Arabic</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="RTDocumentary.ru@English" site_id="Russia+Today+Doc">Russia Today Doc</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="RTDocumentary.ru@Russian" site_id="Russia+Today+Doc">Russia Today Doc</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="RTE2.ie" site_id="rte2">RTÉ2</channel>
+  <channel site="mytelly.co.uk" lang="en" xmltv_id="RTENews.ie" site_id="1650/rte-news">RTE News</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="RTEOne.ie" site_id="rte-one">RTÉ One</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="RTGTV.ru@HD" site_id="1817">Russian Travel Guide HD</channel>
   <channel site="rthk.hk" lang="zh" xmltv_id="RTHKTV31.hk@SD" site_id="31">TV 31</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RTI1.ci@SD" site_id="90593">RTI1</channel>
@@ -650,28 +672,33 @@
   <channel site="meo.pt" lang="pt" xmltv_id="RTP1.pt@HD" site_id="RTP1">RTP1</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="RTPAcores.pt@HD" site_id="RTPACR">RTP Açores</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="RTPAcores.pt@SD" site_id="RTPACR">RTP Açores</channel>
-  <channel site="meo.pt" lang="pt" xmltv_id="RTPMadeira.pt@SD" site_id="RTPMA">RTP Madeira</channel>
+  <channel site="meo.pt" lang="pt" xmltv_id="RTPAfrica.pt@SD" site_id="RTPA">RTP África</channel>
   <channel site="programme-tv.net" lang="fr" xmltv_id="RTPMundo.pt@SD" site_id="rtpi-187">RTPI</channel>
   <channel site="meo.pt" lang="pt" xmltv_id="RTPNoticias.pt@SD" site_id="RTPN">RTP Notícias</channel>
   <channel site="tv.blue.ch" lang="en" xmltv_id="RTRPlaneta.ru@Asia" site_id="366">RTR Planeta</channel>
   <channel site="tv.blue.ch" lang="en" xmltv_id="RTRPlaneta.ru@CIS" site_id="366">RTR Planeta</channel>
   <channel site="tv.blue.ch" lang="en" xmltv_id="RTRPlaneta.ru@Europe" site_id="366">RTR Planeta</channel>
   <channel site="tv.blue.ch" lang="en" xmltv_id="RTRPlaneta.ru@US" site_id="366">RTR Planeta</channel>
+  <channel site="neo.io" lang="ba" xmltv_id="RTRSTV.ba" site_id="rtrs">RTRS</channel>
   <channel site="neo.io" lang="ba" xmltv_id="RTRSTV.ba@SD" site_id="rtrs">RTRS</channel>
-  <channel site="tv.blue.ch" lang="bs" xmltv_id="RTRSplus.ba@SD" site_id="1663">RTRS Plus</channel>
+  <channel site="neo.io" lang="sr" xmltv_id="RTS2.rs" site_id="rts-2">РТС 2</channel>
+  <channel site="tv.blue.ch" lang="sr" xmltv_id="RTSSvet.rs" site_id="368">RTS Sat</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTV1.nl@SD" site_id="3190">RTV1</channel>
   <channel site="ipko.tv" lang="sq" xmltv_id="RTV21.xk@SD" site_id="rtv-21">RTV 21</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="RTVDrenthe.nl@SD" site_id="drenthe">RTV Drenthe</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTVHorizon.nl@SD" site_id="10012">RTV Horizon</channel>
+  <channel site="ziggogo.tv" lang="nl" xmltv_id="RTVNoord.nl" site_id="NL_000136_019583">RTV Noord</channel>
   <channel site="ziggogo.tv" lang="nl" xmltv_id="RTVNoord.nl@SD" site_id="NL_000136_019583">RTV Noord</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="RTVOost.nl@SD" site_id="rtvoost">RTV Oost</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTVPurmerend.nl@SD" site_id="10018">RTV Purmerend</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="RTVRijnmond.nl@SD" site_id="rtvrijnmond">RTV Rijnmond</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTVRijnstreekTV.nl@SD" site_id="3181">RTV Rijnstreek TV</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTVSLOS.nl@SD" site_id="3156">SLOS TV Steenwijkerland</channel>
+  <channel site="tvgids.nl" lang="nl" xmltv_id="RTVUtrecht.nl" site_id="rtvutrecht">RTV Utrecht</channel>
   <channel site="tvgids.nl" lang="nl" xmltv_id="RTVUtrecht.nl@SD" site_id="rtvutrecht">RTV Utrecht</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RTVVeluwezoomTV.nl@SD" site_id="3194">VoorstVeluwezoom TV</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RTVi.ru@SD" site_id="rtvi">RTVi</channel>
+  <channel site="cableplus.com.uy" lang="es" xmltv_id="RTenEspanol.ru" site_id="1502">RT TV</channel>
   <channel site="cableplus.com.uy" lang="es" xmltv_id="RTenEspanol.ru@SD" site_id="1502">RT TV</channel>
   <channel site="ruv.is" lang="is" xmltv_id="RUV.is@SD" site_id="ruv">RÚV</channel>
   <channel site="ruv.is" lang="is" xmltv_id="RUV2.is@SD" site_id="ruv2">RÚV 2</channel>
@@ -679,26 +706,43 @@
   <channel site="shahid.mbc.net" lang="en" xmltv_id="RabehSaqer.sa@HD" site_id="49923172117967">Rabeh Saqer</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RacerSelect.us@SD" site_id="Plex/ca#647f8d22a2fc3fadb4721685-5f0641d0e8ffda004033aff4">RACER Select</channel>
   <channel site="vrt.be" lang="nl" xmltv_id="Radio1.be@SD" site_id="radio1">Radio 1</channel>
+  <channel site="superguidatv.it" lang="it" xmltv_id="Radio105TV.it" site_id="radio-105/460">Radio 105</channel>
   <channel site="vrt.be" lang="nl" xmltv_id="Radio2.be@SD" site_id="radio2">Radio 2</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="RadioAalsmeerTV.nl@SD" site_id="3144">Radio Aalsmeer TV</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="RadioItaliaTV.it" site_id="DTH#9833">Radio Italia TV HD</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="RadioItaliaTrendTV.it" site_id="DTH#10033">Radio Italia Trend Tv HD</channel>
   <channel site="guidatv.sky.it" lang="it" xmltv_id="RadioItaliaTrendTV.it@HD" site_id="DTH#10033">Radio Italia Trend Tv HD</channel>
+  <channel site="guidatv.sky.it" lang="it" xmltv_id="RadioMonteCarloTV.it" site_id="DTH#10993">Radio Monte Carlo</channel>
   <channel site="guida.tv" lang="it" xmltv_id="RadioNorbaTV.it@SD" site_id="82658486/radionorba-tv">Radionorba TV</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RadioShanson.ru@SD" site_id="radio-shanson">Радио Шансон</channel>
   <channel site="sky.com" lang="it" xmltv_id="RadioZeta.it@SD" site_id="IT#5457">RADIO ZETA HD</channel>
   <channel site="sky.com" lang="it" xmltv_id="Radiofreccia.it@SD" site_id="IT#9060">RADIOFRECCIA HD</channel>
   <channel site="airtelxstream.in" lang="en" xmltv_id="RaftaarMedia.in@SD" site_id="LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA">RAFTAAR MEDIA</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai1.it" site_id="156">RAI 1</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai1.it@SD" site_id="156">RAI 1</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai2.it" site_id="154">RAI 2</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai2.it@SD" site_id="154">RAI 2</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai3.it" site_id="155">RAI 3</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="Rai3.it@HD" site_id="155">RAI 3</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Rai4.it" site_id="826552/rai-4">Rai 4</channel>
   <channel site="guida.tv" lang="it" xmltv_id="Rai4.it@SD" site_id="826552/rai-4">Rai 4</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="Rai5.it" site_id="826553/rai-5">Rai 5</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="RaiGulp.it" site_id="82657185/rai-gulp">Rai gulp</channel>
   <channel site="guida.tv" lang="it" xmltv_id="RaiGulp.it@SD" site_id="82657185/rai-gulp">Rai gulp</channel>
   <channel site="foxtel.com.au" lang="en" xmltv_id="RaiItalia.it@Australia" site_id="RAI-ITALIA/RAI">RAI ITALIA</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RaiItalia.it@EuropeAfrica" site_id="791">RAI ITALIA</channel>
   <channel site="foxtel.com.au" lang="en" xmltv_id="RaiItalia.it@NorthAmericas" site_id="RAI-ITALIA/RAI">RAI ITALIA</channel>
   <channel site="foxtel.com.au" lang="en" xmltv_id="RaiItalia.it@SouthAmericas" site_id="RAI-ITALIA/RAI">RAI ITALIA</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="RaiMovie.it" site_id="82657377/rai-movie">RAI Movie</channel>
+  <channel site="tvtv.us" lang="en" xmltv_id="RaiNews24.it" site_id="78803">Rai News 24</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="RaiPremium.it" site_id="82657380/rai-premium">Rai Premium</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RaiScuola.it" site_id="90464">RAI SCUOLA</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RaiScuola.it@SD" site_id="90464">RAI SCUOLA</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RaiSport.it" site_id="rai-sport">RAI Sport</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RaiSport.it@SD" site_id="rai-sport">RAI Sport</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RaiStoria.it" site_id="90463">RAI STORIA</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RaiStoria.it@SD" site_id="90463">RAI STORIA</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="RaiYoyo.it" site_id="82898979/rai-yoyo">Rai YoYo</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RainbowRuby.us@SD" site_id="Roku/all#85f1333ff9065bf2923c8fa5eee50036">Rainbow Ruby</channel>
   <channel site="airtelxstream.in" lang="en" xmltv_id="RajDigitalPlus.in@SD" site_id="LIVETV_LIVETVCHANNEL_RAJ_DIGITAL_PLUS">Raj Digital Plus</channel>
   <channel site="airtelxstream.in" lang="en" xmltv_id="RajMusixTamil.in@SD" site_id="LIVETV_LIVETVCHANNEL_RAJ_MUSIX_TAMIL">Raj Musix Tamil</channel>
@@ -717,6 +761,7 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="RealWild.uk@SD" site_id="Plex/au#697140a85d851f5e69414688-63584a0cf8e2be1350f802a4">Real Wild</channel>
   <channel site="programetv.ro" lang="ro" xmltv_id="RealitateaPlus.ro@SD" site_id="realitatea-plus">Realitatea Plus</channel>
   <channel site="meuguia.tv" lang="pt" xmltv_id="Record.br@SD" site_id="REC">Record TV</channel>
+  <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RecordNews.br" site_id="90445">RECORD NEWS</channel>
   <channel site="chaines-tv.orange.fr" lang="fr" xmltv_id="RecordNews.br@SD" site_id="90445">RECORD NEWS</channel>
   <channel site="watch.whaletvplus.com" lang="en" xmltv_id="RedBullTV.at@AU" site_id="979187723418476851">Red Bull TV (AU)</channel>
   <channel site="watch.whaletvplus.com" lang="pt" xmltv_id="RedBullTV.at@BR" site_id="1022040038798139276">Red Bull TV (BR)</channel>
@@ -728,6 +773,7 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="RedBullTV.at@US" site_id="Roku/all#c5e8a74546771de365652cd053f73351">Red Bull TV</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RedLine.ru@SD" site_id="krasnaya-linia">Красная линия</channel>
   <channel site="siba.com.co" lang="es" xmltv_id="RedPlus.co@SD" site_id="421">RED+</channel>
+  <channel site="mi.tv" lang="pt" xmltv_id="RedeBrasil.br" site_id="br#rede-brasil">Rede Brasil</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="RedeBrasil.br@SD" site_id="br#rede-brasil">Rede Brasil</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="RedeCNTRiodeJaneiro.br@SD" site_id="br#cnt-rio-hd">CNT Rio HD</channel>
   <channel site="mi.tv" lang="pt" xmltv_id="RedeFamilia.br@SD" site_id="br#rede-familia">Rede Familia</channel>
@@ -746,6 +792,7 @@
   <channel site="airtelxstream.in" lang="en" xmltv_id="RepublicTV.in@SD" site_id="LIVETV_LIVETVCHANNEL_REPUBLIC_TV">Republic Tv</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="Retro.ru@SD" site_id="retro-tv">Ретро</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RetroCrush.us@SD" site_id="Plex/ca#647f8d22a2fc3fadb4721685-5ef4e1b40d9ad000423c442a">RetroCrush</channel>
+  <channel site="horizon.tv" lang="cs" xmltv_id="RetroMusicTV.cz" site_id="10098">Retro Music TV</channel>
   <channel site="horizon.tv" lang="cs" xmltv_id="RetroMusicTV.cz@SD" site_id="10098">Retro Music TV</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RevandRoll.us@SD" site_id="Roku/all#f1584888a8625b1abf77aecb4690abe0">Rev and Roll</channel>
   <channel site="tvpassport.com" lang="en" xmltv_id="Revolt.us@SD" site_id="revolt-tv/11301">Revolt TV</channel>
@@ -775,6 +822,7 @@
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Russia1.ru@Plus8" site_id="1666">Россия 1 HD</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Russia1.ru@Plus9" site_id="1666">Россия 1 HD</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Russia1.ru@SD" site_id="1271">Россия 1</channel>
+  <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Russia24.ru" site_id="Russia+24">Russia 24</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Russia24.ru@HD" site_id="Russia+24">Russia 24</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="Russia24.ru@SD" site_id="Russia+24">Russia 24</channel>
   <channel site="magticom.ge" lang="ru" xmltv_id="RussiaK.ru@HD" site_id="69">Культура</channel>
@@ -785,11 +833,13 @@
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RussianMusicBox.ru@SD" site_id="russian-musicbox">Russian MusicBox</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RusskiyBestseller.ru@SD" site_id="russky-bestseller">Русский бестселлер</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="RusskiyDetektiv.ru@SD" site_id="russky-detektiv">Русский детектив</channel>
+  <channel site="magticom.ge" lang="ka" xmltv_id="Rustavi2.ge" site_id="1">რუსთავი 2</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="RyanandFriends.us@SD" site_id="Plex/au#697140a85d851f5e69414688-5f91c4ea96a391002df9a664">Ryan and Friends</channel>
   <channel site="tv.mail.ru" lang="ru" xmltv_id="Rybolov.ru@SD" site_id="729">Рыболов</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ryzhiy.ru@SD" site_id="ryzhy">Рыжий</channel>
   <channel site="m.tv.sms.cz" lang="cs" xmltv_id="SAT1Gold.de@SD" site_id="SAT1+Gold">SAT1 Gold</channel>
   <channel site="elcinema.com" lang="en" xmltv_id="SBC.sa@SD" site_id="1297">SBC</channel>
+  <channel site="zuragt.mn" lang="mn" xmltv_id="SBN.mn" site_id="sbn">SBN</channel>
   <channel site="tvtv.us" lang="en" xmltv_id="SBNTV.us@SD" site_id="67676">SonLife Broadcasting Network</channel>
   <channel site="programtv.onet.pl" lang="en" xmltv_id="SBNTVInternational.us@SD" site_id="sbn-630">SBN</channel>
   <channel site="foxtel.com.au" lang="en" xmltv_id="SBSWorldWatch.au@Sydney" site_id="SBS-Worldwatch/SWW">SBS Worldwatch</channel>
@@ -853,6 +903,7 @@
   <channel site="osn.com" lang="en" xmltv_id="SaudiThaqafiyaTV.sa@SD" site_id="9047">Al Thaqafeya</channel>
   <channel site="webtv.delta.nl" lang="nl" xmltv_id="SchieTV.nl@SD" site_id="3061">Schie TV</channel>
   <channel site="distro.tv" lang="en" xmltv_id="SchwabNetwork.us@SD" site_id="36454">Schwab Network</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="ScrippsNews.us" site_id="Plex/us#5e20b730f2f8d5003d739db7-5fc705dda2236e002d69f211">Scripps News</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="ScrippsNews.us@SD" site_id="Plex/us#5e20b730f2f8d5003d739db7-5fc705dda2236e002d69f211">Scripps News</channel>
   <channel site="epg.iptvx.one" lang="ru" xmltv_id="SeaTV.lv@SD" site_id="sea-tv">Sea TV</channel>
   <channel site="tvplus.com.tr" lang="tr" xmltv_id="SemerkandTV.tr@SD" site_id="97">SEMERKAND</channel>
@@ -863,11 +914,4 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="SensingMurder.us@UK" site_id="PlutoTV/gb#5e9ed47c26ebb000074af566">Sensing Murder</channel>
   <channel site="horizon.tv" lang="sk" xmltv_id="Senzi.sk@SD" site_id="10016">SENZI HD</channel>
   <channel site="canalplus.com" lang="fr" xmltv_id="SerieClub.fr@SD" site_id="#356">SERIE CLUB</channel>
-  <channel site="i.mjh.nz" lang="fr" xmltv_id="SeriesbyPlutoTV.de@FR" site_id="PlutoTV/fr#5f8ed2d1c34c2300073bf02c">Series by Pluto TV</channel>
-  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sever.ru@SD" site_id="sever">Север</channel>
-  <channel site="airtelxstream.in" lang="en" xmltv_id="Shalom.in@Global" site_id="LIVETV_LIVETVCHANNEL_SHALOM_TV">Shalom TV</channel>
-  <channel site="tataplay.com" lang="en" xmltv_id="Shalom.in@SD" site_id="457">Shalom TV</channel>
-  <channel site="tv.mail.ru" lang="ru" xmltv_id="ShansonTV.ru@SD" site_id="1129">Шансон-TB</channel>
-  <channel site="elcinema.com" lang="en" xmltv_id="SharjahTV.ae@SD" site_id="1188">Sharjah TV</channel>
-  <channel site="tataplay.com" lang="en" xmltv_id="ShekinahTV.in@SD" site_id="1313">SHEKINAH</channel>
 </channels>
