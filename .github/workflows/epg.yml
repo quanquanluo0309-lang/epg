@@ -1,0 +1,46 @@
+name: build-epg
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 每日 UTC 22:00 = 北京 06:00
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: epg
+  cancel-in-progress: true
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Clone grabber
+        run: git clone --depth 1 https://github.com/iptv-org/epg.git grabber
+      - name: Install deps
+        run: cd grabber && npm install
+      - name: Grab batches
+        env:
+          NODE_OPTIONS: --max-old-space-size=6144
+        run: |
+          cd grabber
+          for f in ../channels/channels_part*.xml; do
+            i=$(basename "$f" .xml)
+            npm run grab --- --channels="$f" --output="../out_${i}.xml" --maxConnections=10 --days=2 || echo "batch $i failed, continuing"
+          done
+      - name: Merge and gzip
+        run: python3 scripts/merge_guides.py
+      - name: Publish to output branch
+        run: |
+          mkdir -p publish && cp guide.xml.gz publish/
+          cd publish
+          git init -b output
+          git config user.name "epg-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add guide.xml.gz
+          git commit -m "EPG update $(date -u +%F)"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
