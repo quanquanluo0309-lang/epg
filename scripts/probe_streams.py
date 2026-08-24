@@ -67,14 +67,22 @@ def verdict(body, code, eff, e, rc=0, tmax_variant=10):
     b = body.lstrip()[:16]
     if body.lstrip().startswith(b"#EXTM3U"):
         text = body.decode("utf-8", "replace")
-        if "#EXTINF" in text:
+        if "#EXT-X-" in text and "#EXTINF" in text:
             return "ok", "media-manifest"
-        variant = next((l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")), None)
-        if not variant:
+        # 无 EXT-X 标签的"清单"要么是 master（含 EXT-X-STREAM-INF，上面已排除），
+        # 要么是套壳跳转文件（#EXTM3U+#EXTINF+真实地址）——播放器 HLS 解析会报 MALFORMED，
+        # 必须解析内层真实地址并验证，总装时用真实地址替换壳地址
+        inner = next((l.strip() for l in text.splitlines() if l.strip() and not l.startswith("#")), None)
+        if not inner:
             return "dead", "empty-manifest"
-        vb, vc, _, _vrc = fetch(urljoin(eff, variant), e["ua"], e["ref"], tmax_variant)
-        if vb is not None and vb.lstrip().startswith(b"#EXTM3U") and b"#EXTINF" in vb:
-            return "ok", "master+variant"
+        inner_abs = urljoin(eff, inner)
+        vb, vc, _veff, _vrc = fetch(inner_abs, e["ua"], e["ref"], tmax_variant)
+        if vb is not None and vb.lstrip().startswith(b"#EXTM3U") and b"#EXT-X-" in vb:
+            if "#EXT-X-STREAM-INF" in text:
+                return "ok", "master+variant"
+            return "ok", "nested-resolved:" + inner_abs
+        if vb is not None and (vb.lstrip().startswith(b"\x47") or vb[4:8] == b"ftyp"):
+            return "ok", "nested-raw:" + inner_abs
         return "variant-fail", "variant-http-%s" % vc
     if b.startswith(b"\x47") or b[4:8] == b"ftyp" or b.startswith(b"FLV"):
         return "ok", "raw-stream"

@@ -174,6 +174,9 @@ for b in blocks:
     b["title"] = title
     b["cc"] = cc_of(b["tvg_id"])
     b["group0"] = attrs.get("group-title", "")
+    det = r.get("detail", "")
+    if det.startswith(("nested-resolved:", "nested-raw:")):
+        b["url"] = det.split(":", 1)[1]   # 套壳清单：替换为已验证的内层真实地址
     b["srcname"] = attrs.get("x-src", "?")
     b["trust"] = int(attrs.get("x-trust", "5"))
     b["region"] = attrs.get("x-region", "global")
