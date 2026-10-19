@@ -1,0 +1,27 @@
+{
+ "total": 17840,
+ "stats": {
+  "ok": 11989,
+  "dead": 4195,
+  "variant-fail": 472,
+  "timeout": 1157,
+  "skip": 27
+ },
+ "dead_details": {
+  "connect/transfer-timeout": 1157,
+  "http-404": 1093,
+  "http-403": 936,
+  "dns-fail": 463,
+  "http-429": 439,
+  "unrecognized-body": 298,
+  "conn-refused": 266,
+  "html/xml-body": 257,
+  "variant-http-429": 189,
+  "tls-fail": 112,
+  "variant-http-000": 101,
+  "variant-http-404": 100,
+  "http-400": 62,
+  "http-500": 62,
+  "variant-http-200": 56
+ }
+}
